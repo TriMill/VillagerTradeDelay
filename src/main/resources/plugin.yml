@@ -1,0 +1,13 @@
+name: VillagerTradeDelay
+version: ${project.version}
+main: io.github.trimill.villagertradedelay.VillagerTradeDelay
+api-version: 1.17
+authors: [ TriMill ]
+description: Adds a delay between workstations being destroyed and villagers losing their trades
+commands:
+  reload:
+    usage: /<command>
+    description: Reload the VillagerTradeDelay configuration
+  resetqueue:
+    usage: /<command>
+    description: Finish converting all queued villagers
